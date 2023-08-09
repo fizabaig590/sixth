@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Eats Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.logo a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero {
+  background-image: url('hero.jpg');
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.menu-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.menu-item {
+  margin-bottom: 30px;
+}
+
+.menu-item img {
+  max-width: 100%;
+}
+
+.price {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.about-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-section {
+  background-color: #f4f4f4;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+body{
+  background-color: grey;
+}
+
+  </style>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <a href="#">Delicious Eats</a>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#about">About Us</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="home" class="hero">
+    <h1>Welcome to Delicious Eats</h1>
+    <p>Indulge in the finest flavors and culinary creations.</p>
+    <a href="#menu" class="btn">View Menu</a>
+  </header>
+
+  <section id="menu" class="menu-section">
+    <h2>Our Menu</h2>
+    <div class="menu-item">
+      <img src="dish1.png" alt="Dish 1">
+      <h3>Dish 1</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <span class="price">$15</span>
+    </div>
+    <div class="menu-item">
+      <img src="dish2.png" alt="Dish 2">
+      <h3>Dish 2</h3>
+      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <span class="price">$18</span>
+    </div>
+    <!-- Add more menu items here -->
+  </section>
+
+  <section id="about" class="about-section">
+    <h2>About Us</h2>
+    <p>We are dedicated to providing a memorable dining experience with exquisite flavors.</p>
+  </section>
+
+  <section id="contact" class="contact-section">
+    <h2>Contact Us</h2>
+    <p>For reservations and inquiries, please contact us at:</p>
+    <p>Email: info@delicious-eats.com</p>
+    <p>Phone: (123) 456-7890</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2023 Delicious Eats Restaurant. All rights reserved.</p>
+  </footer>
+</body>
+</html>
